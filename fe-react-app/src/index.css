@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f0f0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container-card {
+  background-color: #ffffff;
+}
+
+
+/* HomeView.js */
+
+.input-group-lg, .input-group-text {
+  border-radius: 0% !important;
+}
+
+.form-control[disabled] {
+  background-color: #ffffff;
+}
+
+
+/* PlayerView */
+
+.player-header {
+  min-height: 16em;
+  color: #ffffff;
+}
+
+.player-headshot-header {
+  position: relative;
+}
+
+.player-headshot {
+  max-height: 90%;
+  max-width: 85%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* TeamView */
+
+.team-header {
+  min-height: 12em;
+  color: #ffffff;
+}
+
+.team-logo {
+  max-height: 75%;
+  max-width: 75%;
+}
+
+.team-player-headshot {
+  clip-path: circle();
+  max-height: 85%;
+  max-width: 85%;
+}
+
+
+/* HighlightCard */
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.custom-progress {
+  height: 0.3em !important;
+  border-radius: 0;
+}
+
+.highlight-action {
+  background-color: #ffffff;
+}
