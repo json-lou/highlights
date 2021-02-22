@@ -21,10 +21,13 @@ The React app serves as a interface by:
 ## Screenshots
 
 **Home page**: See most recent highlights across the NBA
+![Home](screenshots/highlights-view.png)
 
 **Team page**: See most recent highlights from a certain team
+![Team](screenshots/team-view-2.png)
 
 **Player page**: See most recent highlights from a certain player
+![Player](screenshots/player-view.png)
 
 
 ## Quick Start
